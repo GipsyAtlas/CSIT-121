@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="tierlistcontact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="tierlist.html">Tier List</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact</h1>
+        <form action="#" method="post">
+            <div class="space1">
+                <label for="name">Enter your name:</label>
+                <div class="space2">
+                    <input type="text" id="name" name="name" required>
+                </div>
+            </div>
+            
+            <div class="space1">
+                <label for="email">Enter your email adress:</label>
+                <div class="space2">
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="space1">
+                <label>What was your favorite type of car:</label>
+                <div class="space2">
+                    <input type="radio" id="GT" name="favorite type" value="GT">
+                    <label for="GT">GT</label>
+                </div>
+                <div>
+                    <input type="radio" id="Coupe" name="favorite type" value="Coupe">
+                    <label for="Coupe">Coupe</label>
+                </div>
+                <div>
+                    <input type="radio" id="Suvs" name="favorite type" value="Suvs">
+                    <label for="Suvs">Suvs</label>
+                </div>
+                <div>
+                    <input type="radio" id="Electric" name="favorite type" value="Electric">
+                    <label for="Electric">Electric</label>
+                </div>
+                <div>
+                    <input type="radio" id="Concepts" name="favorite type" value="Concepts">
+                    <label for="Concepts">Concepts</label>
+                </div>
+            </div>
+
+            <div class="space1">
+                <label for="tier-opinion">Which tier do you strogly agree with?</label>
+                <div class="space2">
+                    <select id="tier-opinion" name="tier-opinion">
+                        <option value="s">Tier S</option>
+                        <option value="a">Tier A</option>
+                        <option value="a">Tier B</option>
+                        <option value="a">Tier C</option>
+                        <option value="a">Tier D</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="space1">
+                <label for="comment">Comments:</label>
+                <div class="space2">
+                    <textarea id="comment" name="comment"></textarea>
+                </div>
+            </div>
+
+            <div class="space1">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

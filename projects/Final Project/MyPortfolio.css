@@ -1,0 +1,128 @@
+body {
+    background-color: black;
+    background-image: url(images/portfoliobackgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    background-color: rgba(0, 250, 154, 0.562);
+    padding: 20px;
+}
+
+nav ul li {
+    margin-left: 1cm;
+    font-size: larger;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+a, ul {
+    color: rgb(0, 250, 154);
+}
+
+table {
+    width: 99%;
+    margin: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid white;
+    padding: 6px;
+}
+
+th {
+    background-color: rgba(0, 250, 154, 0.562);
+    text-align: center;
+}
+
+td {
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+}
+
+table tbody tr td a {
+    color: rgb(0, 250, 154);
+}
+
+.pi {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(0, 250, 154);
+}
+
+#para {
+    background-color: rgba(0, 0, 0, 0.562);
+    font-size: larger;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+        font-size: medium;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .pi {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    #para {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: medium;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.6em;
+    }
+
+    nav ul li {
+        font-size: small;
+    }
+
+    #para {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: small;
+    }
+}
