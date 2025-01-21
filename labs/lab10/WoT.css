@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    background-image: url(images/WebofThings.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    background-color: rgba(0, 83, 116, 0.864);
+    padding: 20px;
+}
+
+nav ul li {
+    margin-left: 1cm;
+    font-size: larger;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size:large;
+    margin: 50px;
+    text-align: center;
+}
+
+main {
+    margin: 100px;
+    margin-top: 190px;
+    background-color: rgba(0, 83, 116, 0.864);
+}
+
+main ul li {
+    color: white;
+    margin: 34px;
+}
+
+a {
+    color: rgb(0, 238, 255);
+}
+
