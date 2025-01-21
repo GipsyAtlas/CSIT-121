@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoxModelPractice</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        p {
+            color: white;
+        }
+        
+        div {
+            height: 200px;
+            width: 200px;
+            border: 6px solid red;
+            background-color: blue;
+            margin: 10px;
+            padding: 40px;
+        }
+
+        #second {
+            float: right;
+            box-shadow: 10px 10px 10px rgb(255, 0, 0);
+        }
+
+        #first {
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 325px;
+            box-shadow: 10px 10px 10px rgb(255, 0, 255);
+        }
+
+        #third {
+            box-shadow: 10px 10px 10px rgb(0, 0, 255);
+        }
+    </style>
+</head>
+<body>
+    <div id="first">
+        <p>box 1</p>
+    </div>
+    <div id="second">
+        <p>box 2</p>
+    </div>
+    <div id="third">
+        <p>box 3</p>
+    </div>
+</body>
+</html>

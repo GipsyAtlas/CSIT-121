@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<superhero>
+    <name>
+        <firstname>Barry</firstname>
+        <lastname>Allan</lastname>
+        <heroname>Flash</heroname>
+    </name>
+    <powers>
+        <power1>Super Speed</power1>
+        <power2>Super Healing</power2>
+        <power3>Time Travel</power3>
+    </powers>
+    <weaknesses>
+        <weakness1>Extremely cold temperatures</weakness1>
+        <weakness2>Seperation from the Speed Force</weakness2>
+    </weaknesses>
+    <origin>
+        <birthplace>Central City</birthplace>
+        <species>Metahuman</species>
+        
+    </origin>
+    <affiliations>
+        <affiliations1>Justice League</affiliations1>
+        <affiliations2>S.T.A.R. Labs</affiliations2>
+        <affiliations3>Central City Police Department</affiliations3>
+    </affiliations>
+</superhero>

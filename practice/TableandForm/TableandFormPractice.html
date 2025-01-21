@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Classes</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        h1, h2 {
+            color: white;
+        }
+
+        table {
+            width: 90%;
+            margin-left: 90px;
+            border-collapse: collapse; 
+        }
+
+        th, td {
+            border: 4px solid white;
+            padding: 8px;
+        }
+
+        th {
+            background-color: aqua;
+        }
+
+        td {
+            color: white;
+        }
+
+
+
+        form {
+            color: white;
+            text-align: center;
+        }
+
+        input {
+            width: 14%;
+        }
+
+        textarea {
+            width: 25%;
+        }
+
+        .space1 {
+            margin-bottom: 1cm;
+        }
+
+        .space2 {
+            margin-top: 10px;
+        }
+
+        p {
+            color: white;
+            font-size: small;
+            text-align: center;
+        }
+
+        a {
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Courses:</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Course Number</th>
+                <th>Course Name</th>
+                <th>Instructor's Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>DCOM 142</td>
+                <td>Intro to Linux UNIX</td>
+                <td>Nithianandam, Vinitha</td>
+            </tr>
+            <tr>
+                <td>CSIT 120</td>
+                <td>Divrsty in Tech Society</td>
+                <td>Boyette-Kelly, Artaelle</td>
+            </tr>
+            <tr>
+                <td>CSIT 210</td>
+                <td>Introduction to Programming</td>
+                <td>Akhimiemona, Melissa</td>
+            </tr>
+            <tr>
+                <td>CSIT 121</td>
+                <td>Web Standards</td>
+                <td>Brown, Alexis</td>
+            </tr>
+            <tr>
+                <td>CSIT 154</td>
+                <td>Database Concepts</td>
+                <td>Tavegia, Sandra</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Feedback:</h2>
+    <form action="#" method="post">
+        <div class="space1">
+            <label for="name">Enter your name:</label>
+            <div class="space2">
+                <input type="text" id="name" name="name" required>
+            </div>
+        </div>
+        
+        <div class="space1">
+            <label for="email">Enter your email adress:</label>
+            <div class="space2">
+                <input type="email" id="email" name="email" required>
+            </div>
+        </div>
+
+        <div class="space1">
+            <label for="comment">Comments:</label>
+            <div class="space2">
+                <textarea id="comment" name="comment" maxlength="1600"></textarea>
+            </div>
+        </div>
+
+        <div class="space1">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <footer>
+        <p>Oluwatimilehin Amoo | <a href="mailto:amoooluwatimilehin@gmail.com">amoooluwatimilehin@gmail.com</a></p>
+    </footer>
+</body>
+</html>
